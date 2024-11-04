@@ -1,9 +1,73 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="dd5vd3EfKa0j-ULkhP5O">
-    <mxGraphModel>
+    <mxGraphModel dx="1024" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UCtIo4FBymC7rITz8ONV-1" value="Система керування бібліотекою" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCtIo4FBymC7rITz8ONV-2" target="UCtIo4FBymC7rITz8ONV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-7" value="Запити на пошук" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCtIo4FBymC7rITz8ONV-6">
+          <mxGeometry x="-0.2491" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="UCtIo4FBymC7rITz8ONV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="180" as="sourcePoint" />
+            <mxPoint x="280" y="332.5000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+              <mxPoint x="181" y="200" />
+              <mxPoint x="181" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-12" value="Реєстрація" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCtIo4FBymC7rITz8ONV-11">
+          <mxGeometry x="0.1071" y="-1" relative="1" as="geometry">
+            <mxPoint x="53" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UCtIo4FBymC7rITz8ONV-2" target="UCtIo4FBymC7rITz8ONV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="140" />
+              <mxPoint x="445" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-14" value="Замовлення книг" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCtIo4FBymC7rITz8ONV-13">
+          <mxGeometry x="-0.1084" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-2" value="Користувачі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-3" value="Постачальники&amp;nbsp;&lt;div&gt;літератури&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-4" value="Інші інформаційні&lt;div&gt;системи&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-5" value="Законодавчи органи" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UCtIo4FBymC7rITz8ONV-3" target="UCtIo4FBymC7rITz8ONV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCtIo4FBymC7rITz8ONV-16" value="Постачання нової літератури" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCtIo4FBymC7rITz8ONV-15">
+          <mxGeometry x="0.341" relative="1" as="geometry">
+            <mxPoint x="-33" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
